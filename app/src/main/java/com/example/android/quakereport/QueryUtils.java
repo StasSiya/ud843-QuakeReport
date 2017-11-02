@@ -28,6 +28,8 @@ import static com.example.android.quakereport.EarthquakeActivity.LOG_TAG;
 
 
     public static List <Earthquake> fetchEarthquakeData(String requestUrl) {
+
+
         Log.i (LOG_TAG, "TEST: fetchEarthQuakeData () called");
         // Create URL object
         URL url = createUrl(requestUrl);

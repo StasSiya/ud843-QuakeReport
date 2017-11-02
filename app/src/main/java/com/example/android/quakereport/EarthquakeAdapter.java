@@ -84,12 +84,8 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         // Set the color on the magnitude circle
         magnitudeCircle.setColor(magnitudeColor);
 
-
-
-
         return listItemView;
     }
-
 
 
     private int getMagnitudeColor (double currentMagnitude) {
